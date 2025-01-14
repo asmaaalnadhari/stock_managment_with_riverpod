@@ -1,0 +1,42 @@
+name: stock_management_with_riverpod
+description: A Flutter application for managing product stocks with efficient state management using Riverpod.
+version: 1.0.0+1
+publish_to: 'none' # This app is not published on pub.dev
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.3.0 # Efficient, reactive state management solution.
+
+  # Database and Storage
+  sqflite: ^2.3.0 # SQLite database package for Flutter.
+  path: ^1.8.3 # Handles file paths for database storage.
+
+  # UI and Design
+  cupertino_icons: ^1.0.8 # Provides Cupertino-style icons for iOS compatibility.
+
+  # Utilities
+  intl: ^0.18.0 # For formatting dates, numbers, and currencies.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter # Tools for testing Flutter applications.
+  flutter_lints: ^4.0.0 # Recommended lints for better code quality.
+
+flutter:
+  uses-material-design: true
+
+  # Add assets section if you have images or other resources.
+  # assets:
+  #   - assets/images/
+
+  # Add fonts section if you are using custom fonts.
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: assets/fonts/CustomFont-Regular.ttf
