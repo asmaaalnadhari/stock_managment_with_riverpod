@@ -2,12 +2,13 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:stock_management_with_riverpod/features/product_management/presentation/provider/state/product_notifier.dart';
 import '../../../../db/data_base_helper.dart';
 import '../../data/local_services/product_repository_impl.dart';
-import '../../domain/use_case/fetch_products_use_case.dart';
-import '../../domain/use_case/fetch_products_by_stock_use_case.dart';
-import '../../domain/use_case/add_product_use_case.dart';
-import '../../domain/use_case/delete_product_use_case.dart';
-import '../../domain/use_case/update_product_use_case.dart';
 
+
+import '../../domain/use_cases/add_product_use_case.dart';
+import '../../domain/use_cases/delete_product_use_case.dart';
+import '../../domain/use_cases/fetch_products_by_stock_use_case.dart';
+import '../../domain/use_cases/fetch_products_use_case.dart';
+import '../../domain/use_cases/update_product_use_case.dart';
 import '../provider/state/product_state.dart';
 
 // Repository Provider

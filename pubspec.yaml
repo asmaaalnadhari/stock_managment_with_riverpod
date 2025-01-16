@@ -7,21 +7,25 @@ environment:
   sdk: '>=3.5.0 <4.0.0'
 
 dependencies:
+  # Core Flutter SDK
   flutter:
     sdk: flutter
 
   # State Management
-  flutter_riverpod: ^2.3.0 # Efficient, reactive state management solution.
+  flutter_riverpod: any # Efficient, reactive state management solution.
 
   # Database and Storage
-  sqflite: ^2.3.0 # SQLite database package for Flutter.
-  path: ^1.8.3 # Handles file paths for database storage.
+  sqflite: any # SQLite database package for Flutter.
+  path: any # Handles file paths for database storage.
 
   # UI and Design
   cupertino_icons: ^1.0.8 # Provides Cupertino-style icons for iOS compatibility.
+  google_fonts: any # For using Google Fonts to style text and themes.
 
   # Utilities
-  intl: ^0.18.0 # For formatting dates, numbers, and currencies.
+  intl: any # For formatting dates, numbers, and currencies.
+  flutter_localization: any # Enables localization for supporting multiple languages.
+  flutter_screenutil: any # Use the latest version
 
 dev_dependencies:
   flutter_test:
@@ -29,7 +33,7 @@ dev_dependencies:
   flutter_lints: ^4.0.0 # Recommended lints for better code quality.
 
 flutter:
-  uses-material-design: true
+  uses-material-design: true # Enables Material Design icons and themes.
 
   # Add assets section if you have images or other resources.
   # assets:

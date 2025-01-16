@@ -1,4 +1,3 @@
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:sqflite/sqflite.dart';
 import '../../../../../shared/utils/constant.dart';
 import '../../../../db/data_base_helper.dart';
