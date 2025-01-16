@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:stock_management_with_riverpod/db/features/product_management/presentation/provider/state/product_state.dart';
+import 'package:stock_management_with_riverpod/features/product_management/presentation/provider/state/product_state.dart';
 
 import '../../../domain/use_case/add_product_use_case.dart';
 import '../../../domain/use_case/delete_product_use_case.dart';

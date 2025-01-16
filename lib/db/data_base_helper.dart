@@ -1,7 +1,7 @@
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
-import 'package:stock_management_with_riverpod/db/configs/app_configs.dart';
 import 'package:stock_management_with_riverpod/db/tables/product_stock_table.dart';
+import '../configs/app_configs.dart';
 import 'tables/products_table.dart';
 import 'tables/stocks_table.dart';
 import 'tables/invoices_table.dart';

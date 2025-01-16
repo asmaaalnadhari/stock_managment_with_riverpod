@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:stock_management_with_riverpod/db/features/product_management/presentation/provider/state/product_notifier.dart';
-import '../../../../data_base_helper.dart';
+import 'package:stock_management_with_riverpod/features/product_management/presentation/provider/state/product_notifier.dart';
+import '../../../../db/data_base_helper.dart';
 import '../../data/local_services/product_repository_impl.dart';
 import '../../domain/use_case/fetch_products_use_case.dart';
 import '../../domain/use_case/fetch_products_by_stock_use_case.dart';

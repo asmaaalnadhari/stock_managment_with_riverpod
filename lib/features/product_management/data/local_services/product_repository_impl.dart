@@ -1,8 +1,8 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:sqflite/sqflite.dart';
-import 'package:stock_management_with_riverpod/db/features/product_management/domain/repositories/product_repository_interface.dart';
 import '../../../../../shared/utils/constant.dart';
-import '../../../../data_base_helper.dart';
+import '../../../../db/data_base_helper.dart';
+import '../../domain/repositories/product_repository_interface.dart';
 import '../models/product.dart';
 
 
