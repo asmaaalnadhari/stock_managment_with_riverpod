@@ -30,7 +30,7 @@ Persist stock data using SQLite for offline storage.
 
 4.  SQLite Persistence: All data is stored in a local SQLite database for offline functionality.
 
-5.  MVVM Architecture: The app is built using the MVVM pattern to ensure clean separation of concerns.
+5.  MVVM with clean Architecture: The app is built using the MVVM pattern to ensure clean separation of concerns.
 
 6.  Riverpod State Management: Efficient and reactive state management with Riverpod.
 
