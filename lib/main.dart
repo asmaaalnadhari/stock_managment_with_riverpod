@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:stock_management_with_riverpod/shared/presentation/main_page.dart';
 import 'package:stock_management_with_riverpod/shared/theme/app_theme.dart';
 import 'package:stock_management_with_riverpod/shared/theme/text_theme.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const ProviderScope(child: MyApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -27,7 +29,7 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
         );
       },
-      child: const SizedBox(), // Replace with your initial screen or widget
+      child: const MainPage(), // Replace with your initial screen or widget
     );
   }
 
