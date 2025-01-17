@@ -7,7 +7,6 @@ import '../../data/modles/base_entity.dart';
 class CustomDropDown<T extends BaseEntity> extends StatelessWidget {
   final String hintText;
   final List<T> options;
-  final bool isDarkTheme;
   final bool isDisabled;
   final Widget? leadingIcon;
   final T? selectedValue;
@@ -22,7 +21,6 @@ class CustomDropDown<T extends BaseEntity> extends StatelessWidget {
     super.key,
     required this.hintText,
     required this.options,
-    required this.isDarkTheme,
     this.isDisabled = false,
     this.onSelection,
     this.searchController,
@@ -54,7 +52,7 @@ class CustomDropDown<T extends BaseEntity> extends StatelessWidget {
           color: Colors.grey.shade700,
         ),
         borderRadius: BorderRadius.circular(10),
-        color: isDarkTheme ? Colors.black54 : const Color(0xFFf2f2f2),
+        color: const Color(0xFFf2f2f2),
       ),
       child: Row(
         children: [
@@ -85,7 +83,7 @@ class CustomDropDown<T extends BaseEntity> extends StatelessWidget {
           color: Colors.grey.shade700,
         ),
         borderRadius: BorderRadius.circular(10),
-        color: isDarkTheme ? Colors.black54 : const Color(0xFFf2f2f2),
+        color: const Color(0xFFf2f2f2),
       ),
       child: DropdownButtonFormField2<T>(
         value: validatedValue,

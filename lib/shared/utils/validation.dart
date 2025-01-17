@@ -11,7 +11,8 @@ class FormValidator {
     } else if (RegExp(r'[0-9]').hasMatch(input!)) {
       _vibrate();
       return 'يجب أن يحتوي على حروف فقط';
-    } else if (!RegExp(r'^[ء-ي ]+$').hasMatch(input)) {
+    }
+    else if (!RegExp(r'^[ء-ي ]+$').hasMatch(input)) {
       _vibrate();
       return 'يجب أن يحتوي على اسم باللغة العربية فقط';
     }
