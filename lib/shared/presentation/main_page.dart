@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:stock_management_with_riverpod/shared/presentation/widgets/app_bars.dart';
 import 'package:stock_management_with_riverpod/shared/presentation/widgets/custom_bottom_bar.dart';
 
+import '../../features/product_management/presentation/pages/product_page.dart';
+
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
 
@@ -16,7 +18,7 @@ class _MainPageState extends State<MainPage> {
   // Define pages and their corresponding app bars
   final List<Widget> _pages = [
     const Placeholder(),
-    const Placeholder(),
+    const ProductPage(),
     const Placeholder(),
     const Placeholder(),
   ];

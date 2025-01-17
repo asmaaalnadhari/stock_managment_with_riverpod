@@ -1,4 +1,6 @@
-class Stock {
+import 'package:stock_management_with_riverpod/shared/data/modles/base_entity.dart';
+
+class Stock extends BaseEntity {
   final String id;
   final String name;
 
@@ -22,4 +24,12 @@ class Stock {
       'name': name,
     };
   }
+
+  @override
+  // TODO: implement pk
+  String? get pk => id;
+
+  @override
+  // TODO: implement title
+  String? get title => name;
 }

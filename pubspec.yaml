@@ -26,6 +26,7 @@ dependencies:
   intl: any # For formatting dates, numbers, and currencies.
   flutter_localization: any # Enables localization for supporting multiple languages.
   flutter_screenutil: any # Use the latest version
+  dropdown_button2: any # Enhanced DropdownButton with additional customization options like rounded corners, searchable menus, and flexible layouts.
 
 dev_dependencies:
   flutter_test:
