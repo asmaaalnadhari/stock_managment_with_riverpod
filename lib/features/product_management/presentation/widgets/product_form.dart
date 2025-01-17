@@ -134,7 +134,7 @@ class _ProductFormState extends ConsumerState<ProductForm> {
                       fillColor: Theme.of(context).colorScheme.secondaryContainer,
                       inputType: TextInputType.text,
                       // inputFormatters: FormValidator.arabicNameFormatter,
-                      validator: FormValidator.validateArabicName,
+                      // validator: FormValidator.validateArabicName,
                     ),
                   ),
                   const SizedBox(width: 10),

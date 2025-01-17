@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../../../shared/presentation/widgets/custom_tab_bar.dart';
 import '../widgets/product_form.dart';
+import '../widgets/product_list_page.dart';
 
 class ProductPage extends StatelessWidget {
   const ProductPage({super.key});
@@ -13,6 +14,6 @@ class ProductPage extends StatelessWidget {
         'قائمة الأصناف',
         'إضافة صنف',
       ],
-      tabPages:const [SizedBox(),ProductForm(),],);
+      tabPages:const [ProductListPage(),ProductForm(),],);
   }
 }
